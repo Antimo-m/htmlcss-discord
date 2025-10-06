@@ -154,19 +154,12 @@ body {
    
 }
 
-.hero1 img{
-  
-}
-
-
-
-
 .black {
-    background-color: black;
+    background-color: #40444b;
 }
 
 footer {
-    background-color: black;
+    background-color: #40444b;
     border-top: 1px solid white;
 }
 
@@ -174,7 +167,7 @@ footer {
     display: flex;
     max-width: 700px;
     margin: 0 auto;
-    background-color: aqua;
+   
     justify-content: space-between;
     padding-bottom: 5px;
     padding-top: 5px;
@@ -184,7 +177,8 @@ footer {
 
 .logo-1 {
     display: flex;
-    background-color: #f88;
+    color: white;
+    font-size: 24px;
 
 }
 
@@ -212,15 +206,15 @@ footer {
 
 .container-1 {
     width: 100%;
-    background-color: black;
+    background-color: #232428;
     padding: 10px 0;
 
 
 }
 
 .classe {
-    display: flex;
-    max-width: 700px;
+    display:flex;
+    max-width: 800px;
     margin: 0 auto;
 
 
@@ -228,8 +222,9 @@ footer {
 
 .card3 {
     height: 250px;
-    display: flex;
+   
     width: 30%;
+    color: white;
 
 }
 
@@ -237,7 +232,67 @@ footer {
     height: 250px;
     display: flex;
     width: 20%;
-    border-right: 1px solid white;
-
-
+    
 }
+
+
+.violet{
+    color:#5865F2;
+}
+
+
+footer ul{
+    list-style: none;
+    padding: 15px;
+    color: white;
+}
+
+.white{
+    color: white;
+    
+}
+
+.strong{
+    font-size: 28px;
+    color: #404EED;
+    display: flex;
+    margin-top: 20px;}
+
+.img-1{
+    display: inline;
+    width:20px;
+    height: 15px;
+    padding-right: 5px;
+}
+
+.button-1{
+        color: white;
+         padding: 8px 18px;
+        border-radius: 20px;
+        text-decoration: none;         
+        font-weight: bold;
+        background-color:#404EED;
+        
+    }
+
+
+
+    .margin-top{
+        display: flex;
+        margin-top: 20px;
+    }
+
+    .margin{
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .margin-left{
+        margin-left: 5px;
+    }
+
+
+    
