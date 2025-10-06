@@ -5,34 +5,68 @@
 }
 
 
-.inizio-pagina {
-    width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
-
+body {
+    background-color: #5865F2;
+   
 }
 
-header {
-    background: #ffb347;
+
+.navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding-left: 5px;
-    padding-right: 5px;
-    font-family: Arial, Helvetica, sans-serif;
-
+    background-color: #404EED;
+    padding: 15px 60px;
+    color: white;
 }
 
-header .links {
-    gap: 15px;
+
+.logo {
     display: flex;
-
+    align-items: center;
+    gap: 10px;
 }
+
+
+.nav-links {
+    display: flex;
+    gap: 40px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    
+}
+
+.nav-links a:hover {
+    color: #b0b7ff;
+}
+
+
+.login-btn {
+    background-color: white;
+    color: #404EED;
+    padding: 8px 18px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+   
+}
+
+.login-btn:hover {
+    background-color: #dfe1ff;
+}
+
 
 .flex {
     display: flex;
+    
+}
+
+.padding{
+    padding: 15px;
 }
 
 
@@ -41,17 +75,20 @@ header .links {
     background-color: blue;
     padding: 30px 0;
     text-align: center;
+    background-image: url(../img\ 2/jumbo.png);
+    background-size: cover;
+    padding: 150px;
+    
+    
 }
 
-
-
-
 .hero .box {
-    background-color: violet;
     width: 80%;
     max-width: 500px;
     margin: 0 auto;
     height: 150px;
+    color: white;
+   
 }
 
 .container {
@@ -61,30 +98,42 @@ header .links {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+     background-color: white;
 
 }
 
-.card {
-    width: 65%;
-    height: 220px;
-    background-color: rgb(82, 82, 255);
+
+.testo{
     display: flex;
-    max-width: 440px;
+}
+
+
+
+.card {
+    width: 70%;
+    height: 350px;
+    display: flex;
+    max-width: 100%;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .card1 {
-    width: 35%;
-    height: 220px;
-    background-color: pink;
+    width: 70%;
+    max-width: 500px;
+    height: 350px;
     display: flex;
-    max-width: 220px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  
+   
 }
 
+
+.img{
+    max-width: 100%;
+}
 
 .grey {
     background-color: rgba(211, 211, 211, 0.581);
@@ -95,15 +144,20 @@ header .links {
     background-color: lightgrey;
     padding: 30px 0;
     text-align: center;
+    
 }
 
 .hero1 .box1 {
-    background-color: green;
-    width: 80%;
-    max-width: 700px;
+    width: 70%;
+    max-width: 500px;
     margin: 0 auto;
-    height: 350px;
+   
 }
+
+.hero1 img{
+  
+}
+
 
 
 
